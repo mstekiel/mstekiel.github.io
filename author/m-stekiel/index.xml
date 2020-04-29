@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M Stekiel | Academic</title>
+    <link>https:///mstekiel.github.io/author/m-stekiel/</link>
+      <atom:link href="https:///mstekiel.github.io/author/m-stekiel/index.xml" rel="self" type="application/rss+xml" />
+    <description>M Stekiel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mstekiel.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>M Stekiel</title>
+      <link>https:///mstekiel.github.io/author/m-stekiel/</link>
+    </image>
+    
+    <item>
+      <title>A new diffractometer for diffuse scattering studies on the ID28 beamline at the ESRF</title>
+      <link>https:///mstekiel.github.io/publication/girard-2019-new/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/girard-2019-new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-pressure compressibility and electronic properties of bismuth silicate Bi 2 SiO 5 from synchrotron experiments and first-principles calculations</title>
+      <link>https:///mstekiel.github.io/publication/girard-2019-high/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/girard-2019-high/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competing structural instabilities in Bi 2 SiO 5</title>
+      <link>https:///mstekiel.github.io/publication/girard-2018-competing/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/girard-2018-competing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zr-containing layered double hydroxides: Synthesis, characterization, and evaluation of thermodynamic properties</title>
+      <link>https:///mstekiel.github.io/publication/poonoosamy-2018-zr/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/poonoosamy-2018-zr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

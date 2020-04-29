@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benedikt Petermüller | Academic</title>
+    <link>https:///mstekiel.github.io/author/benedikt-petermuller/</link>
+      <atom:link href="https:///mstekiel.github.io/author/benedikt-petermuller/index.xml" rel="self" type="application/rss+xml" />
+    <description>Benedikt Petermüller</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mstekiel.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Benedikt Petermüller</title>
+      <link>https:///mstekiel.github.io/author/benedikt-petermuller/</link>
+    </image>
+    
+    <item>
+      <title>Synthesis, Crystal Structure, and Compressibilities of Mn3- xIr5B2&#43; x (0≤ x≤ 0.5) and Mn2IrB2</title>
+      <link>https:///mstekiel.github.io/publication/petermuller-2018-synthesis/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/petermuller-2018-synthesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

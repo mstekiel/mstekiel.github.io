@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alessandro Mirone | Academic</title>
+    <link>https:///mstekiel.github.io/author/alessandro-mirone/</link>
+      <atom:link href="https:///mstekiel.github.io/author/alessandro-mirone/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alessandro Mirone</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mstekiel.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Alessandro Mirone</title>
+      <link>https:///mstekiel.github.io/author/alessandro-mirone/</link>
+    </image>
+    
+    <item>
+      <title>Structural, elastic and vibrational properties of celestite, SrSO4, from synchrotron x-ray diffraction, thermal diffuse scattering and Raman scattering</title>
+      <link>https:///mstekiel.github.io/publication/girard-2018-structural/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/girard-2018-structural/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

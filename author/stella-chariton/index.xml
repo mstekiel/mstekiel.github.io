@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stella Chariton | Academic</title>
+    <link>https:///mstekiel.github.io/author/stella-chariton/</link>
+      <atom:link href="https:///mstekiel.github.io/author/stella-chariton/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stella Chariton</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mstekiel.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Stella Chariton</title>
+      <link>https:///mstekiel.github.io/author/stella-chariton/</link>
+    </image>
+    
+    <item>
+      <title>High-pressure, high-temperature phase stability of iron-poor dolomite and the structures of dolomite-IIIc and dolomite-V</title>
+      <link>https:///mstekiel.github.io/publication/binck-2020-high/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/binck-2020-high/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seismic detectability of carbonates in the deep Earth: A nuclear inelastic scattering study</title>
+      <link>https:///mstekiel.github.io/publication/chariton-2020-seismic/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/chariton-2020-seismic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High pressure elasticity of FeCO3-MgCO3 carbonates</title>
+      <link>https:///mstekiel.github.io/publication/stekiel-2017-high/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/stekiel-2017-high/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

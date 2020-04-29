@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Izabela Sosnowska | Academic</title>
+    <link>https:///mstekiel.github.io/author/izabela-sosnowska/</link>
+      <atom:link href="https:///mstekiel.github.io/author/izabela-sosnowska/index.xml" rel="self" type="application/rss+xml" />
+    <description>Izabela Sosnowska</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mstekiel.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Izabela Sosnowska</title>
+      <link>https:///mstekiel.github.io/author/izabela-sosnowska/</link>
+    </image>
+    
+    <item>
+      <title>Deformations of the $α$-Fe2O3 rhombohedral lattice across the Néel temperature</title>
+      <link>https:///mstekiel.github.io/publication/fabrykiewicz-2017-deformations/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/fabrykiewicz-2017-deformations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lack of a threefold rotation axis in $α$-Fe2O3 and $α$-Cr2O3 crystals</title>
+      <link>https:///mstekiel.github.io/publication/stekiel-2015-lack/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/stekiel-2015-lack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monoclinic deformation of the crystal lattice of hematite $α$-Fe2O3</title>
+      <link>https:///mstekiel.github.io/publication/przenioslo-2014-monoclinic/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https:///mstekiel.github.io/publication/przenioslo-2014-monoclinic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
