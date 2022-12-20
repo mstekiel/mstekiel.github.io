@@ -5,6 +5,8 @@
 
 ## Features
 
+The project is forked from https://github.com/alshedivat/al-folio which contains full list of features and docs.
+
 ### Publications
 
 Your publications page is generated automatically from your BibTex bibliography.
