@@ -202,7 +202,7 @@ plugins:
   - jekyll-imagemagick
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-link-attributes
   - jekyll-twitter-plugin
@@ -254,7 +254,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: gscholar-2022-12-22.bib
+  bibliography: Stekiel-gscholar-2022-12-22.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
