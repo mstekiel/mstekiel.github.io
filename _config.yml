@@ -203,7 +203,7 @@ plugins:
   - jekyll-imagemagick
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll-scholar
+  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-link-attributes
   - jekyll-twitter-plugin
@@ -262,9 +262,8 @@ scholar:
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
   
-  group_by: year
   order: descending
-  sort_by: year, month
+  sort_by: year
 
   replace_strings: true
   join_strings: true
