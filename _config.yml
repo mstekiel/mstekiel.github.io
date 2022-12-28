@@ -202,7 +202,7 @@ plugins:
   - jekyll-imagemagick
   - jekyll-minifier
   - jekyll-paginate-v2
-  - jekyll-scholar
+  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-link-attributes
   - jekyll-twitter-plugin
@@ -254,16 +254,15 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: *.bib
+  bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
   
-  group_by: year
   order: descending
-  sort_by: year, month
+  sort_by: year
 
   replace_strings: true
   join_strings: true
