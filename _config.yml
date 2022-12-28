@@ -248,8 +248,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Stekiel, St{\k{e}}kiel]
-  first_name: [Michal, Micha{\l}, M.]
+  last_name: [Stekiel]
+  first_name: [Michal, M.]
 
   style: apa
   locale: en
