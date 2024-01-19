@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on Michal</title>
+    <link>https://mstekiel.github.io/tags/css/</link>
+    <description>Recent content in css on Michal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jan 2024 19:38:06 +0100</lastBuildDate>
+    <atom:link href="https://mstekiel.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Development</title>
+      <link>https://mstekiel.github.io/blogs/2024/website-development/</link>
+      <pubDate>Wed, 17 Jan 2024 19:38:06 +0100</pubDate>
+      <guid>https://mstekiel.github.io/blogs/2024/website-development/</guid>
+      <description>The world of website development is quite overwhelming to me. I have learned so much just trying to build this website, but the amount of tools I&amp;rsquo;m discovering every time I try to tweak something, can be too much.&#xA;I want to list some pages that are great tools for website development:&#xA;Design color palette Search engine for emojis Fonts exploration </description>
+    </item>
+  </channel>
+</rss>

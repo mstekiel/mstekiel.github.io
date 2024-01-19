@@ -1,0 +1,8 @@
+{{ $quote := .Inner }}
+{{ $quote = safeHTML $quote }}
+<location class="location">
+  <p class="mb-0">{{ $quote }}</p>
+  {{ with (.Get "language") }}
+  <footer class="locaiton-footer">{{ . }}</footer>
+  {{ end }}
+</location>

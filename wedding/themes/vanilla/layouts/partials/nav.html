@@ -1,0 +1,40 @@
+<div id="nav-border" class="container">
+  <nav id="nav" class="nav justify-content-center">
+    
+  {{ $showActiveNav := .Site.Params.showActiveNav }}
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.nav }}
+    {{ $active := "" }}
+    {{ if eq $showActiveNav true }}
+      {{ $isMenu := or ($currentPage.IsMenuCurrent "nav" .) ($currentPage.HasMenuCurrent "nav" .) }}
+      {{ $isMenu = or $isMenu (eq $currentPage.Params.identifier .Identifier) }}
+      {{ $isMenu = or $isMenu (eq $currentPage.Title .Name) }}
+      {{ $isMenu = or $isMenu (and (eq .Name "Blog") (eq $currentPage.Section "post")) }}
+      {{ $isMenu = or $isMenu (and (eq .Name "Tags") (eq $currentPage.Section "tags")) }}
+      {{ if $isMenu }} 
+        {{ $active = "nav-link-active" }}
+      {{ end }}  
+    {{ end }}  
+    {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
+    {{ $text := print $icon " " .Name | safeHTML }}
+    <a class="nav-link {{ $active }}" href="{{ .URL }}">{{ $text }}</a>
+  {{ end }}
+
+  {{ $siteLanguages := site.Languages}}
+  {{ $pageLang := .Page.Lang}}
+  {{- range .Page.AllTranslations }}
+      {{ $translation := . }}
+      {{- range sort $siteLanguages "Weight" "asc" }}
+          {{- if eq $translation.Lang .Lang }}
+              {{ if eq $pageLang .Lang}}
+                  <a class="nav-link" href="{{ $translation.Permalink | relURL }}">{{ site.Params.languageNameShort }}{{ site.Params.languageFlag }}</a>
+              {{ else }}
+                  <a class="nav-link" href="{{ $translation.Permalink | relURL }}">{{ .Params.languageNameShort }}{{ .Params.languageFlag }}</a>
+              {{ end }}
+          {{- end }}
+      {{- end }}
+  {{- end }}
+
+
+  </nav>
+</div>

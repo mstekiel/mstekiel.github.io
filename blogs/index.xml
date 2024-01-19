@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Michal</title>
+    <link>https://mstekiel.github.io/blogs/</link>
+    <description>Recent content in Blogs on Michal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jan 2024 19:38:06 +0100</lastBuildDate>
+    <atom:link href="https://mstekiel.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Development</title>
+      <link>https://mstekiel.github.io/blogs/2024/website-development/</link>
+      <pubDate>Wed, 17 Jan 2024 19:38:06 +0100</pubDate>
+      <guid>https://mstekiel.github.io/blogs/2024/website-development/</guid>
+      <description>The world of website development is quite overwhelming to me. I have learned so much just trying to build this website, but the amount of tools I&amp;rsquo;m discovering every time I try to tweak something, can be too much.&#xA;I want to list some pages that are great tools for website development:&#xA;Design color palette Search engine for emojis Fonts exploration </description>
+    </item>
+    <item>
+      <title>Electronic Orbitals</title>
+      <link>https://mstekiel.github.io/blogs/2024/electronic-orbitals/</link>
+      <pubDate>Wed, 17 Jan 2024 16:25:35 +0100</pubDate>
+      <guid>https://mstekiel.github.io/blogs/2024/electronic-orbitals/</guid>
+      <description>Orbitron Since I am dealing with crystal-electric fields I&amp;rsquo;ve been seeing a lot of nice pictures of electron orbitals, but today, I have encountered a completely new quality on the Internet.&#xA;Take a look at the Orbitron webpage and admire beautifully rendered images. You will find pictures of standard orbitals, but also some truly weird stuff like the \( 7i \) orbital.&#xA;Apart from the 3D depiction, subtabs for each orbital contain much more information in form of animations, graphs and equations.</description>
+    </item>
+  </channel>
+</rss>

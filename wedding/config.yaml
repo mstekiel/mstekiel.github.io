@@ -1,0 +1,87 @@
+baseURL: https://mstekiel.github.io/wedding
+title: L&M
+theme: vanilla
+
+defaultContentLanguageInSubdir: true
+languages:
+  pl:
+    languageName: Polski
+    weight: 1
+    params:
+      languageNameShort: PL
+      languageFlag: 🇵🇱
+  it:
+    languageName: Italiano
+    weight: 2
+    params:
+      languageNameShort: IT
+      languageFlag: 🇮🇹
+  en:
+    languageName: English
+    weight: 3
+    params:
+      languageNameShort: EN
+      languageFlag: 🇬🇧
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+# Unicodes:
+# poland 🇵🇱
+menu:
+  nav:
+  - name: 
+    pre: home
+    url: /
+    weight: 1
+  # - name: Torino
+  #   url: /torino
+  #   weight: 2
+  # - name: Warszawa
+  #   url: /warszawa
+  #   weight: 2
+
+
+params:
+  custom_css: css/michal-vanilla.css
+  includeBootstrapJs: false
+  showActiveNav: true
+  containerMaxWidth: 700px
+  dateFormat: 2 Jan, 2006
+  homeText: Wedding page of Laura and Michal.
+  footerText: Made with [Hugo](https://gohugo.io/) & [Vanilla](https://github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme)
+  hideFooter: true
+  katex: true
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
+
+
+enableEmoji: True
