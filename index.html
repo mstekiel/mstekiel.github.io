@@ -259,6 +259,24 @@ Michal
                     </li>
                     
                     
+                    
+                    
+                    <li class="nav-item navbar-text dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Tools dropdown menu">
+                            Tools
+                        </a>
+                        <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
+                            
+                            <a class="dropdown-item text-center nav-link" href="/tools/neutron_props"
+                                title="example dropdown 1">
+                                Neutron properties
+                            </a>
+                            
+                        </div>
+                    </li>
+                    
+                    
 
                     
                     <li class="nav-item navbar-text">
@@ -320,7 +338,7 @@ Michal
     
     <span class="px-1">
         <a href="https://github.com/mstekiel" target="_blank" class="btn social-icon">
-            <i class="fab fa-github"></i>
+            <i class="fa-brands fa-github"></i>
         </a>
     </span>
     
@@ -640,12 +658,28 @@ Michal
                                 aria-selected="true" 
                                 role="tab" 
                                 data-bs-toggle="pill"
-                                id='Forschungszentrum-Jülich--tab'
-                                data-bs-target='#pills-Forschungszentrum-Jülich-'
-                                aria-controls='Forschungszentrum-Jülich-' 
+                                id='Forschungszentrum-Jülich-at-Heinz-Maier-Leibnitz-Zentrum--tab'
+                                data-bs-target='#pills-Forschungszentrum-Jülich-at-Heinz-Maier-Leibnitz-Zentrum-'
+                                aria-controls='Forschungszentrum-Jülich-at-Heinz-Maier-Leibnitz-Zentrum-' 
                             >
-                                Forschungszentrum Jülich
+                            TOPAS @ MLZ
                             </div>
+                        </li>
+                        
+                        
+                        
+                        <li class="nav-item px-1 bg-transparent" role="presentation">
+                            <div 
+                                class="nav-link bg-transparent" 
+                                aria-selected="true" 
+                                role="tab" 
+                                data-bs-toggle="pill"
+                                id='Forschungszentrum-Jülich--tab'
+                                data-bs-target='#pills-Forschungszentrum-Jülich-' 
+                                aria-controls='Forschungszentrum-Jülich-'
+                            >
+                            Postdoc @ JCNS
+                        </div>
                         </li>
                         
                         
@@ -660,8 +694,8 @@ Michal
                                 data-bs-target='#pills-Technische-Universität-München-' 
                                 aria-controls='Technische-Universität-München-'
                             >
-                                Technische Universität München
-                            </div>
+                            Postdoc @ TUM
+                        </div>
                         </li>
                         
                         
@@ -676,8 +710,8 @@ Michal
                                 data-bs-target='#pills-Goethe-Univertität-Frankfurt-am-Main-' 
                                 aria-controls='Goethe-Univertität-Frankfurt-am-Main-'
                             >
-                                Goethe Univertität Frankfurt am Main
-                            </div>
+                            PhD @ Goethe-Uni
+                        </div>
                         </li>
                         
                         
@@ -688,6 +722,35 @@ Michal
                         <div 
                             class="tab-pane fade show active bg-transparent" 
                             role="tabpanel"
+                            id='pills-Forschungszentrum-Jülich-at-Heinz-Maier-Leibnitz-Zentrum-'
+                            aria-labelledby='pills-Forschungszentrum-Jülich-at-Heinz-Maier-Leibnitz-Zentrum--tab'
+                        >
+                            <div>
+                                <span class="h4">Instrument scientist</span>
+                                <small>-</small>
+                                <a href="https://www.fz-juelich.de/en/jcns" target="_blank">Forschungszentrum Jülich at Heinz Maier-Leibnitz Zentrum</a>
+                                <div class="pb-1">
+                                    <small></small>
+                                    
+                                </div>
+
+                                
+                                <div class="py-2 featuredLink">
+                                    <a class="p-2 px-4 btn btn-outline-primary btn-sm" href=https://mlz-garching.de/topas target="_blank">
+                                        TOPAS 
+                                    </a>
+                                </div>
+                                
+                            </div>
+
+                            Im an instrument scientist at the thermal neutron time-of-flight spectrometer TOPAS.
+                        </div>
+                        
+                        
+                        
+                        <div 
+                            class="tab-pane fade bg-transparent" 
+                            role="tabpanel"
                             id='pills-Forschungszentrum-Jülich-'
                             aria-labelledby='pills-Forschungszentrum-Jülich--tab'
                         >
@@ -695,15 +758,18 @@ Michal
                                 <span class="h4">Post-doctoral researcher</span>
                                 <small>-</small>
                                 <a href="https://www.fz-juelich.de/en/jcns" target="_blank">Forschungszentrum Jülich</a>
+                                
                                 <div class="pb-1">
                                     <small></small>
                                     
                                 </div>
-
+                                
                                 
                             </div>
 
-                            I am looking into materials that show dynamic magnetoelastic coupling such as between crystal-field excitations or phonons and magnons.
+                            <div class="pt-2">
+                                I am looking into materials that show dynamic magnetoelastic coupling such as between crystal-field excitations or phonons and magnons.
+                            </div>
                         </div>
                         
                         
@@ -897,13 +963,30 @@ This sort of interaction was discovered some time ago but eludes a systematic de
             <div class="card h-100">
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/blogs/2024/better-plots/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="How to make better plots">How to make better plots</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>Matplotlib Sources: https://doi.org/10.1371/journal.pcbi.1003833 </p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">Feb 22, 2024</span>
+                    <a href="/blogs/2024/better-plots/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
                     <a href="/blogs/2024/website-development/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title="Website Development">Website Development</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>The world of website development is quite overwhelming to me. I have learned so much just trying to build this website, but the amount of tools I&rsquo;m discovering every time I try to tweak something, can be too much.
-I want to list some pages that are great tools for website development:
-Design …</p>
+                        <p>The world of website development is so much more than I imagined. I have learned so much just trying to build this website, but the amount of tools I&rsquo;m discovering every time I try to tweak something, can be too much.
+I want to list some pages that are great tools for website development: …</p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
@@ -960,7 +1043,7 @@ Take a look at the Orbitron webpage and admire beautifully rendered images. You 
                         height="40px" width="40px">
                 </a>
             </div>
-            &copy; 2024  All rights reserved
+            &copy; 2025  All rights reserved
             <div class="text-secondary">
                 Made with
                 <span class="text-danger">
