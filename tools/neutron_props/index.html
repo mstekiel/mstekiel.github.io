@@ -33,7 +33,7 @@
 
 
 <meta property="og:title" content="Calculator of neutron properties" />
-<meta property="og:description" content="Neutron properties calculator Can I include scripts here?" />
+<meta property="og:description" content="Input neutron property: meV &#8491&#x207B&#x00B9 &#8491 m/s THz K Derived values: \( E \) = ... meV \( k \) = ... &#8491\( ^{-1} \) \( \lambda \) = ... &#8491 \( V \) = ... m/s \( \nu \) = ... THz \( T \) = ... K " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mstekiel.github.io/tools/neutron_props/" /><meta property="article:section" content="tools" />
 <meta property="article:published_time" content="2024-11-26T16:05:35+01:00" />
@@ -41,7 +41,7 @@
 
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Calculator of neutron properties"/>
-<meta name="twitter:description" content="Neutron properties calculator Can I include scripts here?"/>
+<meta name="twitter:description" content="Input neutron property: meV &#8491&#x207B&#x00B9 &#8491 m/s THz K Derived values: \( E \) = ... meV \( k \) = ... &#8491\( ^{-1} \) \( \lambda \) = ... &#8491 \( V \) = ... m/s \( \nu \) = ... THz \( T \) = ... K "/>
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -326,8 +326,31 @@ Calculator of neutron properties | Michal
           </div>
           
           <article class="page-content  p-2">
-          <h2 id="neutron-properties-calculator">Neutron properties calculator</h2>
-<p>Can I include scripts here?</p>
+          <h2>Input neutron property:</h2>
+
+<input type="text" id="input_value" placeholder="value" onchange="neutron_calculate()">
+
+<select id="input_unit" onchange="neutron_calculate()">
+	<option value="energy"> meV </option>
+	<option value="wavevector"> &#8491&#x207B&#x00B9 </option>
+	<option value="wavelength"> &#8491 </option>
+	<option value="velocity"> m/s </option>
+	<option value="frequency"> THz </option>
+	<option value="temperature"> K </option>
+</select>
+
+<h1> </h1>
+<h3> Derived values:</h3>
+
+<div> \( E \) = <span id="out_energy"> ... </span> meV</div>
+<div> \( k \) = <span id="out_wavevector"> ... </span> &#8491\( ^{-1} \) </div>
+<div> \( \lambda \) = <span id="out_wavelength"> ... </span> &#8491 </div>
+<div> \( V \) = <span id="out_velocity"> ... </span> m/s </div>
+<div> \( \nu \) = <span id="out_frequency"> ... </span> THz </div>
+<div> \( T \) = <span id="out_temperature"> ... </span> K </div>
+
+<script src="/js/neutronCalculator.js"></script>
+
 
           </article>
         </div>
@@ -395,6 +418,9 @@ Calculator of neutron properties | Michal
 
 
   </div><footer>
+
+<hr style="border: 1px dashed var(--background-color); margin: 0px; opacity:0.5;">
+
     
  
  
@@ -481,7 +507,8 @@ Take a look at the Orbitron webpage and admire beautifully rendered images. You 
     
 
     
-</div><div class="container py-4">
+</div><hr style="border: 1px var(--background-color); margin: 0px; opacity:0.5;">
+    <div class="container py-4">
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             <div class="pb-2">

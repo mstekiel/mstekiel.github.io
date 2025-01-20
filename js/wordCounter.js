@@ -1,7 +1,7 @@
 var count = document.getElementById('count');
 var input = document.getElementById('input');
 var globalWordCounter = 0;
-var WORD_LIMIT = 100000;
+var WORD_LIMIT = 10;
 
 input.addEventListener('keydown', function(e) {
   if (globalWordCounter > WORD_LIMIT && e.code !== "Backspace") {
